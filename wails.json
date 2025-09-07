@@ -7,7 +7,7 @@
   "frontend:dev:watcher": "npm run dev",
   "frontend:dev:serverUrl": "auto",
   "author": {
-    "name": "Abhishek Kumar",
-    "email": "abhi.vickycool@gmail.com"
+    "name": "Invader Skywalker",
+    "email": "invader.skywalker@gmail.com"
   }
 }

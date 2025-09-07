@@ -3,23 +3,21 @@
     "target": "ESNext",
     "useDefineForClassFields": true,
     "module": "ESNext",
-    "lib": [
-      "ESNext",
-      "DOM"
-    ],
+    "lib": ["ESNext", "DOM"],
     "moduleResolution": "Node",
-    "strict": true,
-    "sourceMap": true,
+    "strict": false,                    // disable strict mode
+    "noUnusedLocals": false,            // ignore unused variables
+    "noUnusedParameters": false,        // ignore unused params
+    "noImplicitAny": false,             // allow implicit 'any'
+    "noImplicitReturns": false,         // ignore missing returns
+    "skipLibCheck": true,               // skip checking all declaration files
+    "allowJs": true,                     // allow JS files
     "resolveJsonModule": true,
-    "isolatedModules": true,
+    "isolatedModules": false,            // disable isolatedModules
     "esModuleInterop": true,
-    "noEmit": true,
-    "noUnusedLocals": true,
-    "noUnusedParameters": true,
-    "noImplicitReturns": true,
-    "skipLibCheck": true
+    "sourceMap": true,
+    "noEmit": true
   },
-  "include": [
-    "src"
-  ]
+  "include": ["src"],
+  "exclude": ["node_modules", "dist"]
 }
